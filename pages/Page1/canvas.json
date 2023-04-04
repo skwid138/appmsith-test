@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 610,
+          "bottomRow": 550,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -27,78 +27,11 @@
           "leftColumn": 0,
           "children": [
             {
-              "widgetName": "CategorySlider1",
-              "displayName": "Category Slider",
-              "iconSVG": "/static/media/icon.cbd0db7a0bd317a6e4cbbd72417f8dee.svg",
-              "labelText": "Size",
-              "searchTags": [
-                "range"
-              ],
-              "topRow": 22,
-              "bottomRow": 30,
-              "parentRowSpace": 10,
-              "labelWidth": 5,
-              "type": "CATEGORY_SLIDER_WIDGET",
-              "hideCard": false,
-              "defaultOptionValue": "md",
-              "animateLoading": true,
-              "parentColumnSpace": 20.15625,
-              "leftColumn": 13,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                }
-              ],
-              "shouldTruncate": false,
-              "labelPosition": "Left",
-              "options": [
-                {
-                  "label": "Extra Small",
-                  "value": "xs"
-                },
-                {
-                  "label": "Small",
-                  "value": "sm"
-                },
-                {
-                  "label": "Medium",
-                  "value": "md"
-                },
-                {
-                  "label": "Large",
-                  "value": "lg"
-                },
-                {
-                  "label": "Extra Large",
-                  "value": "xl"
-                }
-              ],
-              "isDisabled": false,
-              "key": "8v9tzvdiid",
-              "labelTextSize": "0.875rem",
-              "isDeprecated": false,
-              "rightColumn": 41,
-              "widgetId": "z6l68izkj5",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "isVisible": true,
-              "sliderSize": "m",
-              "shouldScroll": false,
-              "version": 1,
-              "parentId": "0",
-              "labelAlignment": "left",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "originalTopRow": 13,
-              "originalBottomRow": 21,
-              "showMarksLabel": true
-            },
-            {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 33,
+              "topRow": 13,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -171,7 +104,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1680635357160,
-              "originalBottomRow": 52,
+              "originalBottomRow": 55,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -185,7 +118,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 61,
+              "bottomRow": 55,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -293,7 +226,7 @@
               "key": "3ksaop65xr",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 45,
+              "rightColumn": 56,
               "textSize": "0.875rem",
               "widgetId": "vy5e4fpad6",
               "minWidth": 450,
@@ -324,7 +257,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 24,
+              "originalTopRow": 27,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -337,8 +270,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 3,
-              "bottomRow": 16,
+              "topRow": 4,
+              "bottomRow": 11,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -347,7 +280,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 20.15625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 6,
+              "leftColumn": 18,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -364,7 +297,7 @@
               "text": "This is the Dev Branch",
               "key": "oqh7pj5mev",
               "isDeprecated": false,
-              "rightColumn": 28,
+              "rightColumn": 50,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "rwv9v0ehj0",
@@ -377,10 +310,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 3,
+              "originalTopRow": 4,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 7,
+              "originalBottomRow": 11,
               "fontSize": "3rem",
               "minDynamicHeight": 4
             }
