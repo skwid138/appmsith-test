@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 520,
+          "bottomRow": 610,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -34,8 +34,8 @@
               "searchTags": [
                 "range"
               ],
-              "topRow": 13,
-              "bottomRow": 21,
+              "topRow": 22,
+              "bottomRow": 30,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "CATEGORY_SLIDER_WIDGET",
@@ -89,6 +89,8 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 13,
+              "originalBottomRow": 21,
               "showMarksLabel": true
             },
             {
@@ -96,7 +98,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 24,
+              "topRow": 33,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -169,6 +171,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1680635357160,
+              "originalBottomRow": 52,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -182,7 +185,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 52,
+              "bottomRow": 61,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -321,6 +324,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
+              "originalTopRow": 24,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -334,7 +338,7 @@
                 "label"
               ],
               "topRow": 3,
-              "bottomRow": 7,
+              "bottomRow": 16,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -357,10 +361,10 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "This is the Main Branch",
+              "text": "This is the Dev Branch",
               "key": "oqh7pj5mev",
               "isDeprecated": false,
-              "rightColumn": 22,
+              "rightColumn": 28,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "rwv9v0ehj0",
@@ -373,9 +377,11 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 3,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
+              "originalBottomRow": 7,
+              "fontSize": "3rem",
               "minDynamicHeight": 4
             }
           ]
